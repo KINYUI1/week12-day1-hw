@@ -7,6 +7,7 @@ const Show = (props)=>{
         <h2>{card.name}</h2>
         <img src={card.img + '.jpg'}/><br/>
         <a href='/pokemon'>Back</a>
+        <a href='/pokemon'>Back To Pokemon List</a>
     </div>
 }
 
